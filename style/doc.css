@@ -1,0 +1,51 @@
+.doc {
+  margin: 0 auto 100px;
+  width: 500px;
+  border: 2px black solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+.doc h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.doc p {
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+.doc button {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+.doc button:hover {
+  color: aqua;
+  background-color: black;
+  border: 1px solid black;
+}
+.doc a {
+  color: black;
+  text-decoration: none;
+}
+.doc a:visited {
+  color: black;
+  text-decoration: none;
+}
+.doc-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-doc h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.about-doc p {
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+.about-doc {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}

@@ -18,17 +18,33 @@
         <nav>
             <ul>
                 <li>
-                    <a href="../pages/account.html"><button>compte</button></a>
+                    <a href="./account.html"><button>compte</button></a>
                 </li>
                 <li>
                     <a href="#"><button>O</button></a>
                 </li>
                 <li>
-                    <a href="#"><button>=</button></a>
+                    <button class="shownav">=</button>
                 </li>
             </ul>
         </nav>
     </header>
+    <div class="menu-burger">
+        <ul>
+            <li>
+                <a href="./account.html"><button>Mon compte</button></a>
+            </li>
+            <li>
+                <a href="#"><button>Mon évenement </button></a>
+            </li>
+            <li>
+                <a href="./doc.html"><button>Documentation</button></a>
+            </li>
+            <li>
+                <a href="./lab.html"><button>Laboratoire</button></a>
+            </li>
+        </ul>
+    </div>
     <form class="form">
         <span class="input-span">
             <label for="email" class="label">Email</label>
@@ -40,6 +56,7 @@
         <input class="submit" type="submit" value="Se connecter">
         <span class="span">Pas de compte? <a href="./createaccount.html">Créer un compte</a></span>
     </form>
+    <script src="../index.js"></script>
 </body>
 
 </html>

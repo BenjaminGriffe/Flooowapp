@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloOoWApp</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/article.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>FloOoWApp</h1>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../pages/account.html"><button>compte</button></a>
+                </li>
+                <li>
+                    <a href="#"><button>O</button></a>
+                </li>
+                <li>
+                    <button class="shownav">=</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu-burger">
+        <ul>
+            <li>
+                <a href="../pages/account.html"><button>Mon compte</button></a>
+            </li>
+            <li>
+                <a href="#"><button>Mon évenement </button></a>
+            </li>
+            <li>
+                <a href="../pages/doc.html"><button>Documentation</button></a>
+            </li>
+            <li>
+                <a href="../pages/lab.html"><button>Laboratoire</button></a>
+            </li>
+        </ul>
+    </div>
+    <section class="article">
+        <h2>Création de compte, du simple au pro</h2>
+        <div class="article-content">
+            <p>Ici on va comprendre comment on passe d'une création de compte basique avec laquelle on ne peut rien en sortir à un compte avec des vrai option, des alertes et tout son service client.</p>
+            <p>A noter que dans cet article je vais parler surtout de compte d'utilisateurs physique mais que bien évidemment le finctionnement et similaire et en "miroir" pour certains aspect pour les compte d'utilisateurs moraux.</p>
+            <h3>1-Le commencement</h3>
+            <p>
+                Pour le début, les comptes sont juste une liste informations "inutile". On rentre les informations demandées, puis elle finissent dans la base des données, elles sont bien enregistrées mais ne sont pas exploitable car elle ne donne aucun accès spécifique.
+                <br><br>
+                Cependant, certaines régles sont instaurées dès le départ comme l'adresse mail unique, une adresses ne peut pas créer plusieurs comptes, un âge réel (entre 16ans et 99ans) et des noms et prénoms interdit (hitler, Kim jong un, fils de pute....)
+            </p>
+            <h3>2-Une première interface</h3>
+            <p>
+                Ici lorsqu'on aura bien définie la structure de notre récupération de données, on ajoutera une authentification sur un espace définie. La création de compte permettera en fonction d'un espace de connection avec mail et mot de passe d'atterrir sur une simple page avec toutes les informations de compte. L'idée ici, sera d'abord de créer un espace dédier à chacun qui soit unique et accessible uniquement sous échange de mail+mot de passe. 
+            </p>
+            <h3>3-Une interface riche en choix </h3>
+            <p>
+                Puisque nous avons notre interface unique à chaque comptes nous allons remplacer les quelques info présentes sur l'interface par des options, comme une photo de profil, un ID pour pouvoir ajouter des gens (features plus tard), changer le mot de passe,changer le mail ainsi que le téléphone ou même l'adresse d'habitation puis enfin créer une interface de stats.
+            </p>
+            <h3>4-Une connection intra-compte</h3>
+            <p>
+                Arrivé à ce moment, on mettra la possibilité pour les comptes physique d'entrer sur les interfaces de commande, pour cela il fautre créer des parcelles (comme un QRcode) qui nous emmène vers des lieux de consommation avec notre compte et qu'on puisse intéragir dessus (commander, naviguer, partir-revenir, annuler une commande, sav..)
+            </p>
+            <h3>5-Les suivies et statistique</h3>
+            <p>
+                Pour terminer nos comptes il faudrat instaurer la possibilité de mettre des 2FA*, les validation par mail et SMS lors de la création de compte, les campagnes d'emailing (newletters), avoir aussi la possibilité de tracker les achats depuis le compte avec l'historique permettant d'avoir des boissons, des snacks et des lieux préféré. Il serait bien évidemment trackable également par les comptes admin avec encore plus de data** avec les paniers moyens, les heures de fréquentation ... Enfin c'est à partir de ce moment qu'on pourra instaurer les features secondaires et tertiaires comme les listes d'amis , les scoreboard etc.(PS: Pour nos périodes de test elles ne seront pas présentes) 
+                <br><br>
+                <span class="def">*= Les 2FA : 2ème Facteur d'Authentification, une manière de sécurisé notre compte qui est éxterrne à l'application (code par sms, Google authentificator, phrases, question....)
+                    <br><br>
+                    **= Les datas : données récoltées
+                </span>
+            </p>
+        </div>
+    </section>
+    <section class="RA">
+        <h2>Plus d'articles</h2>
+        <div class="RA-content">
+            <a href="../pages/doc.html"><button>GO !</button></a>
+        </div>
+    </section>
+    <script src="../index.js"></script>
+
+</html>

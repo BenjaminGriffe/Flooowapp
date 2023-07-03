@@ -24,15 +24,31 @@
                     <a href="#"><button>O</button></a>
                 </li>
                 <li>
-                    <a href="#"><button>=</button></a>
+                    <button class="shownav">=</button>
                 </li>
             </ul>
         </nav>
     </header>
+    <div class="menu-burger">
+        <ul>
+            <li>
+                <a href="./account.html"><button>Mon compte</button></a>
+            </li>
+            <li>
+                <a href="#"><button>Mon évenement </button></a>
+            </li>
+            <li>
+                <a href="./doc.html"><button>Documentation</button></a>
+            </li>
+            <li>
+                <a href="./lab.html"><button>Laboratoire</button></a>
+            </li>
+        </ul>
+    </div>
     <form class="form">
         <span class="input-span">
-        <label for="email" class="label">Nom</label>
-        <input type="email" name="email" id="email"></span>
+            <label for="email" class="label">Nom</label>
+            <input type="email" name="email" id="email"></span>
         <label for="email" class="label">Prénom</label>
         <input type="email" name="email" id="email"></span>
         <label for="email" class="label">Date de naissance</label>
@@ -40,13 +56,14 @@
         <label for="email" class="label">Email</label>
         <input type="email" name="email" id="email"></span>
         <span class="input-span">
-        <label for="password" class="label">Mot de passe</label>
-        <input type="password" name="password" id="password"></span>
+            <label for="password" class="label">Mot de passe</label>
+            <input type="password" name="password" id="password"></span>
         <label for="password" class="label">Confirmer le mot de passe</label>
         <input type="password" name="password" id="password"></span>
         <input class="submit" type="submit" value="Log in">
         <span class="span">Déjà un compte? <a href="#">Connectez-vous</a></span>
     </form>
+    <script src="../index.js"></script>
 </body>
 
 </html>

@@ -45,30 +45,39 @@
             </li>
         </ul>
     </div>
-    <form class="form" id="contactForm">
+    <form class="form" id="businesscontactForm">
         <div class="alert">Inscription réussie</div>
-        <span class="input-span">
-            <label for="name" class="label">Prénom</label>
-            <input type="text" name="name" id="name"></span>
+        <label for="name" class="label">Nom du commerce</label>
+        <input type="text" name="name" id="businessname"></span>
+        <label for="surname" class="label">Nom de la société</label>
+        <input type="text" name="surname" id="businesssurname"></span>
+        <label for="date" class="label">Date de création</label>
+        <input type="date" name="date" id="businessdate"></span>
+        <label for="adress" class="label">Adresse du commerce</label>
+        <input type="text" name="adress" id="businessadress"></span>
+        <label for="phone" class="label">Numéro de téléphone de l'entreprise</label>
+        <input type="number" name="phone" id="businessphone"></span>
+        <label for="email" class="label">Email de l'entreprise</label>
+        <input type="email" name="email" id="businessemail"></span>
+        <label for="password" class="label">Mot de passe</label>
+        <input type="password" name="password" id="businesspassword"></span>
+        <h3>Coordonnées du responsable</h3>
+        <label for="name" class="label">Prénom</label>
+        <input type="text" name="name" id="name"></span>
         <label for="surname" class="label">Nom</label>
         <input type="text" name="surname" id="surname"></span>
         <label for="date" class="label">Date de naissance</label>
         <input type="date" name="date" id="date"></span>
-        <label for="adress" class="label">Adresse</label>
-        <input type="text" name="adress" id="adress"></span>
         <label for="phone" class="label">Numéro de téléphone</label>
         <input type="number" name="phone" id="phone"></span>
         <label for="email" class="label">Email</label>
         <input type="email" name="email" id="email"></span>
-        <span class="input-span">
-            <label for="password" class="label">Mot de passe</label>
-            <input type="password" name="password" id="password"></span>
         <input class="submit" type="submit" value="Créer un compte">
         <span class="span">Déjà un compte? <a href="./account.html">Connectez-vous</a></span>
     </form>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="../businessform.js"></script>
     <script src="../index.js"></script>
-    <script src="../form.js"></script>
 </body>
 
 </html>

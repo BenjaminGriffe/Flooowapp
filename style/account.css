@@ -21,7 +21,10 @@ form {
 }
 
 form input[type="email"],
-form input[type="password"] {
+form input[type="password"],
+form input[type="date"],
+form input[type="text"],
+form input[type="number"] {
   border-radius: 0.5rem;
   padding: 1rem 0.75rem;
   width: 100%;
@@ -34,7 +37,10 @@ form input[type="password"] {
 }
 
 form input[type="email"]:focus,
-form input[type="password"]:focus {
+form input[type="password"]:focus,
+form input[type="date"]:focus,
+form input[type="text"]:focus,
+form input[type="number"]:focus {
   outline: 2px solid var(--clr);
 }
 
@@ -72,4 +78,15 @@ form .submit:hover {
 
 .span a {
   color: var(--clr);
+}
+
+.alert {
+  width: 100%;
+  background: rgb(0, 255, 106);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
 }
